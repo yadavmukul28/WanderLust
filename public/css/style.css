@@ -60,7 +60,7 @@ body{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: stretch;
+    align-items: space-evenly;
 }
 
 /* Cards */
@@ -116,4 +116,10 @@ body{
 
 .btns{
     display: flex;
+}
+
+/* Map */
+#map {
+    height: 400px;
+    width: 80vh;
 }
